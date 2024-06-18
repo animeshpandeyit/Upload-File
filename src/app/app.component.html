@@ -43,11 +43,12 @@
                 class="form-control"
                 placeholder="please select a valid file"
                 formControlName="file"
-                (change)="uploadImage($event)"
+                (change)="onFileSelected($event)"
               />
             </p>
           </div>
         </div>
+        <!-- #fileInput -->
 
         <button type="submit" class="btn btn-primary mt-3">Submit</button>
       </form>
@@ -112,3 +113,7 @@
 but ab jo maine starting me bataya tha api  ke through hi fiel update kartey hai 
 api kya karta hai
 -->
+
+<!-- (change)="uploadImage($event)" -->
+<!--  -->
+<!-- <button type="button" (click)="fileInput.click()">Pick File</button> -->
